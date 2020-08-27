@@ -23,9 +23,3 @@ def comparehash(passwd, hash, security):
         return False
 
 
-passwordtest = 'hello123'
-passwordtest2 = 'hello123'
-x = hash(passwordtest, 14)
-
-r = comparehash(passwordtest2, x, 14)
-print(str(r))
